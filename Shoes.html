@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>TAP STORE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="images/icon1.png" rel="shortcut icon" />
+    <link href="css/shoes.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/shoes.js"></script>
+</head>
+
+<body>
+    <div class="gototop" id="gototop">
+        <a  href="javascript:;" onclick="goToTop()" class="fa fa-chevron-up"></a>
+    </div>
+    <header id="myHeader">
+
+        <div class="col10">
+          <a href="#trangchu"><img src="images/icon2.png" alt="Logo" /> </a>
+           
+            
+          
+        </div>
+        <h1 class="col20 l-height animate__flash"><a href="#trangchu">TAP STORE</a>  
+        </h1>
+          <div class="ads col50">
+             <div>
+                <div class="l-height">GIÁ CỰC SỐC</div>
+            </div> 
+             <!-- <section class="logo">
+                <img src="images/logo1.gif" alt="ẩn" />
+                <img src="images/logo6.jpg" alt="ẩn" />
+                <img src="images/logo3.png" alt="ẩn" />
+                <img src="images/logo4.png" alt="ẩn" />
+                <img src="images/logo7.jpg" alt="ẩn" />
+            </section>  -->
+             <div> 
+                 <div class="l-height">KHUYẾN MÃI LỚN</div>
+            </div> 
+        </div> 
+        <div class="col25 l-height controls">
+            <input type="text" placeholder="Nhập từ khoá tìm kiếm" />
+            
+             <!-- <a href="#"><i class="fa fa-search"></i>
+            </a>   -->
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a id="trangchu">Trang chủ</a></li>
+            <li class="sub-nav">
+                <a href="#">Danh mục</a>
+
+                <ul class="sub">
+                    <li><a href="#">Giày Nam</a></li>
+                    <li><a href="#">Giày Nữ</a></li>
+                    <li><a href="#">Giày Tây</a></li>
+                </ul>
+            </li>
+
+
+            <li><a href="#gioithieu" onclick="go(this)">Giới thiệu</a></li>
+
+            <li><a href="#event" onclick="go(this)">Sự Kiện</a></li>
+            <li><a href="#lienhe" onclick="go(this)">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section class="content">
+        <div class="left">
+            <h2>THƯƠNG HIỆU</h2>
+            <figure>
+                <img src="images/logo1.gif" />
+                <img src="images/logo2.jpg" />
+                <img src="images/logo3.png" />
+                <img src="images/logo4.png" />
+                <img src="images/logo5.jpg" />
+                <img src="images/logo6.jpg" />
+                <img src="images/logo7.jpg" />
+
+            </figure>
+        </div>
+        
+        <div id="gioithieu" class="right">
+            <div class="item">
+                <figure>
+                    <img src="images/nike5.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Nike</li>
+                        <li>Giá : 2.700.000 VNĐ</li>
+                        <li>Đánh giá: 4.6*</li>
+                        <li>Size: 37, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/nike6.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Nike</li>
+                        <li>Giá : 1.990.000 VNĐ</li>
+                        <li>Đánh giá: 4.3*</li>
+                        <li>Size:36, 37, 38, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/nike7.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Nike</li>
+                        <li>Giá :3.200.000 VNĐ</li>
+                        <li>Đánh giá: 4.7*</li>
+                        <li>Size:36, 37, 38, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/nike8.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Nike</li>
+                        <li>Giá : 2.800.000 VNĐ</li>
+                        <li>Đánh giá: 4.6*</li>
+                        <li>Size: 37, 38, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/converse1.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Converse</li>
+                        <li>Giá : 1.700.000 VNĐ</li>
+                        <li>Đánh giá: 4.6*</li>
+                        <li>Size: 37, 38, 39, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/nike9.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Nike</li>
+                        <li>Giá : 2.100.000 VNĐ</li>
+                        <li>Đánh giá: 4.0*</li>
+                        <li>Size: 37, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/nike10.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Nike</li>
+                        <li>Giá : 7.700.000 VNĐ</li>
+                        <li>Đánh giá: 4.9*</li>
+                        <li>Size: 37, 38, 39, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/puma1.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày:Puma</li>
+                        <li>Giá : 3.800.000 VNĐ</li>
+                        <li>Đánh giá: 4.6*</li>
+                        <li>Size: 37, 39, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/vans1.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Vans</li>
+                        <li>Giá : 4.600.000 VNĐ</li>
+                        <li>Đánh giá: 4.6*</li>
+                        <li>Size: 37, 38, 39, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/adidas3.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Adidas</li>
+                        <li>Giá : 4.000.000 VNĐ</li>
+                        <li>Đánh giá: 4.3*</li>
+                        <li>Size: 37, 38, 39, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/converse2.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Converse</li>
+                        <li>Giá : 7.800.000 VNĐ</li>
+                        <li>Đánh giá: 4.6*</li>
+                        <li>Size: 37, 38, 39, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/nike11.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Nike</li>
+                        <li>Giá : 5.300.000 VNĐ</li>
+                        <li>Đánh giá: 4.5*</li>
+                        <li>Size: 37, 38, 39, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/tay.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Giày Tây LTD 3</li>
+                        <li>Giá : 2.800.000 VNĐ</li>
+                        <li>Đánh giá: 4.6*</li>
+                        <li>Size: 37, 38, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="images/nike12.png" alt="ẩn" />
+                    <figcaption></figcaption>
+                </figure>
+                <div class="detail">
+                    <ul>
+                        <li>Tên giày: Nike</li>
+                        <li>Giá : 2.800.000 VNĐ</li>
+                        <li>Đánh giá: 4.6*</li>
+                        <li>Size: 37, 38, 40, 41, 42</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+
+        </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <img src="images/abc6.png" alt="ẩn" />
+        <img src="images/abc1.png" alt="ẩn" />
+        <img src="images/abc2.png" alt="ẩn" />
+        <img src="images/abc3.png" alt="ẩn" />
+        <img src="images/abc4.png" alt="ẩn" />
+
+    </section>
+    <section class="subject">
+        <h1></h1>
+    </section>
+
+    <div class="sukien">
+        <h1>SỰ KIỆN</h1>
+        <hr width="30%" size="5" color="yellow" />
+        <section class="events bg-light">
+
+            <div id="event" class="evts">
+                <div class="evt">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/23yJOu9LSwE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="evt">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rZ75ruX43Yk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="evt">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5L04JwtimN0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="evt">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sma0OYpIoJw" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div id="lienhe" class="lienhe">
+        <h1>LIÊN HỆ</h1>
+        <hr width="30%" size="5" color="black" />
+        <p>Nếu Bạn Có Thắc Mắc Vui Lòng Liên Hệ Chúng Tôi</p>
+        <div class="clearfix">
+            <div class="pha1 left">
+                <h3>Địa chỉ văn phòng kinh doanh</h3>
+                <ul>
+                    <li><i class="fa fa-building"></i>202 Lý Thường Kiệt, Q10, Tp.HCM</li>
+                    <li><i class="fa fa-phone"></i>Phone: 0966859220</li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        Email: <a style="color:gray" href="mailto:anhpha2103@gmail.com">anhpha2103@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="pha3 left">
+                <h3>Giờ Làm Việc</h3>
+                <ul>
+                    <li><i class="fa fa-calendar"></i> Ngày thường: 8h-22h</li>
+                    <li><i class="fa fa-calendar"></i> Thứ bảy: 8h-21h</li>
+                    <li><i class="fa fa-calendar"></i> Chủ nhật: 10h-21h</li>
+                </ul>
+            </div>
+            <div class="pha2 left">
+                <form>
+                    <table width="220%" cellspacing="10">
+                        <tr>
+                            <td width="50%">
+
+                                <input type="text" placeholder="Your name:(*)" />
+                            </td>
+                            <td width="50%">
+                                <input type="text" placeholder="Your email:(*)" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea rows="5" placeholder="Your message:(*)"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Send Message" />
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="hotlinefix">
+        <a href="tel:0966859220" class="linkcall" rel="nofollow">
+            <span class="round">
+                <img src="images/call.png" alt="hotline totushop">
+            </span>
+            <span>0966859220</span>
+        </a>
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
